@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien1"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_EnterAllRentButton"
+        android:background="@drawable/buttonbg1"
+        android:textColor="#673AB7"
+        android:text="Enter Your All Rent"
+        android:textAllCaps="false"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoTutorialLink"
+        android:text="See Video Tutorial To Using"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+
+        />
+
+</RelativeLayout>

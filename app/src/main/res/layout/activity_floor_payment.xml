@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien1"
+    tools:context=".User.FloorPaymentActivity">
+    <ScrollView
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/floorPaymentButtonid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:textColor="#3B004C"
+                android:textSize="22sp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/floorPayment_DetailsTextViewid"
+                android:text="Rowja Villa First Floor"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_below="@+id/floorPayment_DetailsTextViewid"
+                android:id="@+id/floorPayment_RenterNameTextviewid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Alote To: Md Sohrab Hossain Sohel"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/floorPayment_RenterNameTextviewid"
+                android:id="@+id/floorPayment_RentBalanceTextviewid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Rent Amount: 1000"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/floorPayment_RentBalanceTextviewid"
+                android:id="@+id/floorPayment_RentAdvancedTextviewid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Advance: 1500"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/floorPayment_RentAdvancedTextviewid"
+                android:id="@+id/floorPayment_gasTextviewid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Gas: 1500"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/floorPayment_gasTextviewid"
+                android:id="@+id/floorPayment_ElectriciyTextviewid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Electricity: 1500"
+                android:textStyle="bold"
+                />   <TextView
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/floorPayment_ElectriciyTextviewid"
+                android:id="@+id/floorPayment_UtilsTextviewid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Utills: 1500"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/floorPayment_UtilsTextviewid"
+                android:id="@+id/floorPayment_WaterTextviewid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:text="Water: 1500"
+                android:textStyle="bold"
+                />
+
+
+
+            <TextView
+                android:layout_marginTop="14dp"
+                android:id="@+id/edit_txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#473131"
+                android:layout_below="@+id/floorPayment_WaterTextviewid"
+                android:text="Previous Due:"
+                />
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/previousDueTextviewid"
+                android:layout_below="@+id/edit_txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="1800"
+                />
+            <TextView
+                android:id="@+id/edit_txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#473131"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/previousDueTextviewid"
+                android:text="Payment This Monthe:"
+                />
+            <EditText
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/edit_txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/input"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:hint="Previous Due"
+                android:id="@+id/paymentEdittextid"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Due Balance"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/paymentEdittextid"
+                android:background="@drawable/buttonbg1"
+                android:padding="15dp"
+                android:textColor="#E91E63"
+                android:id="@+id/paymentEdit_NewDueBalanceTextviewid"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/floorPaymentButtonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="15dp"
+        android:text="Paid"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:background="@drawable/buttonbg1"
+        android:textColor="#3F51B5"
+        />
+
+</RelativeLayout>

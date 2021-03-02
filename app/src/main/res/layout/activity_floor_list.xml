@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien1"
+    tools:context=".User.FloorListActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:textColor="#ff22"
+        android:text="Home Name"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:id="@+id/floor_HomeDetailsTextviewid"
+        />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_marginLeft="25dp"
+    android:id="@+id/floorListRecyclerViewid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/floor_HomeDetailsTextviewid"
+    />
+
+
+
+
+</RelativeLayout>

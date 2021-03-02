@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradien1"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+   tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/loginEmailEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/input"
+        android:layout_centerInParent="true"
+        android:hint="Email"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="5dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/loginEmailEdittextid"
+        android:id="@+id/loginPasswordEdittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/input"
+        android:layout_centerInParent="true"
+        android:hint="Password"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="5dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="18sp"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginPasswordEdittextid"
+            android:textColor="#000"
+            android:textAllCaps="false"
+            android:background="@drawable/buttonbg1"
+            android:layout_marginTop="15dp"
+            android:layout_centerInParent="true"
+            android:text="Login"
+            android:textSize="17sp"
+            android:id="@+id/loginButton"
+            />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerLinkTextviewid"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Don\'t Have An Account? Register"
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "657268126747",
+    "project_id": "drivermanagement-86c22",
+    "storage_bucket": "drivermanagement-86c22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657268126747:android:78412f649b8833e620f4be",
+        "android_client_info": {
+          "package_name": "com.sohel.drivermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657268126747-725gn237kt3959g8i1r4jbkhmo3jms8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1B53qFGeVzGXtExE8815SIh8xRXUEkdo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657268126747-725gn237kt3959g8i1r4jbkhmo3jms8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

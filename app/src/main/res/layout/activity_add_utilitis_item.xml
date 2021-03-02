@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien1"
+    tools:context=".Admin.AddUtilitisItemActivity">
+
+    <ImageView
+
+        android:src="@drawable/select_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:id="@+id/addUtils_ImageViewid"
+        />
+
+    <EditText
+
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#fff"
+        android:hint="Product Name"
+        android:layout_below="@+id/addUtils_ImageViewid"
+        android:padding="15dp"
+        android:background="@drawable/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_Utils_headingEdittextid"
+        />
+    <EditText
+
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"
+        android:textColorHint="#fff"
+        android:hint="Product Description"
+        android:layout_below="@+id/add_Utils_headingEdittextid"
+        android:padding="15dp"
+        android:background="@drawable/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_Utils_DescriptionEdittext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_Utils_DescriptionEdittext"
+        android:background="@drawable/buttonbg1"
+        android:layout_marginTop="10dp"
+        android:textColor="#001617"
+        android:text="Save Product"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:id="@+id/utils_SaveButtonid"
+
+        />
+
+
+
+</RelativeLayout>

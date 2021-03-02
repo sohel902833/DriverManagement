@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradien1"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:elevation="15dp"
+    >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+        android:padding="10dp"
+       >
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/select_image"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/utilites_list_ImageViewid"
+            />
+       <TextView
+           android:text="Md Sohrab hossain"
+           android:padding="10dp"
+           android:id="@+id/utilites_list_HeadingTextview"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/utilites_list_ImageViewid"
+           android:textColor="#000"
+           android:textSize="17sp"
+           android:textStyle="bold"
+           />
+       <TextView
+           android:text="Md Sohrab hossain"
+           android:id="@+id/utilitis_list_DescriptionTextviewid"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/utilites_list_HeadingTextview"
+           android:textColor="#000"
+           android:textSize="14sp"
+           />
+   </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

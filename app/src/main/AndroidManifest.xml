@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sohel.drivermanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DriverManagement">
+        <activity android:name=".User.FloorPaymentActivity"></activity>
+        <activity android:name=".User.FloorEditActivity" />
+        <activity
+            android:name=".User.MainBottomNavigationActivity"
+            android:label="@string/title_activity_main_bottom_navigation" />
+        <activity android:name=".User.StartActivity" />
+        <activity android:name=".User.FloorAloteActivity" />
+        <activity android:name=".User.FloorListActivity" />
+        <activity android:name=".User.HomeListActivity" />
+        <activity android:name=".User.HomeCreateActivity" />
+        <activity android:name=".User.ProductListActivity" />
+        <activity android:name=".User.ProductCategoryActivity" />
+        <activity android:name=".Admin.AddUtilitisItemActivity" />
+        <activity android:name=".Admin.UtilitiesListActivity" />
+        <activity android:name=".Admin.AdminUtilitiesCategory" />
+        <activity android:name=".AdminMainActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
